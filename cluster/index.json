@@ -1,0 +1,42 @@
+{
+  "pathwayTitle": "Pathway Title",
+  "title": "Hkube Tutorial",
+  "description": "Hkube Tutorial",
+  "difficulty": "beginner",
+  "time": "2 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1 - Version",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2 - Deploy Third-Party",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Deploy Core",
+        "text": "step3.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "courseData": "courseBase.sh",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "hideintro": false,
+    "hidefinish": false,
+    "uisettings": "javascript",
+    "icon": "fa-node",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
