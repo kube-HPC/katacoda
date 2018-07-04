@@ -21,6 +21,6 @@ there are more options . if you wish to learn more visit http://hkube.io/learn/
 
 
 
-- now get res using jobid we getting from the previous stage `curl http://master/hkube/api-server/api/v1/exec/results/{jobid}`{{execute}}
+- now lets get the results for doing it we need the jobid that recived from the previous stage `curl http://master/hkube/api-server/api/v1/exec/results/{jobid}`{{execute}}
 
 
